@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "01/11/2026 00:00",
+  "cidade_referencia": "Toledo - PR",
+  "coordenadas_referencia": {
+    "lat": -24.7246,
+    "lon": -53.7412
+  },
+  "total": 3,
+  "concursos": [
+    {
+      "orgao": "CGU - Controladoria-Geral da União",
+      "titulo": "CGU abre concurso público com vagas para auditores federais de finanças e controle",
+      "escopo": "NACIONAL",
+      "uf": "BR",
+      "cidade_base": "Nacional (Prova no PR / Capitais)",
+      "distancia_toledo_km": null,
+      "status_inscricao": "Aberta",
+      "inscricoes_ate": "04/11/2026",
+      "data_fim_iso": "2026-11-04",
+      "salario_ate": "20.000,00",
+      "salario_num": 20000.0,
+      "escolaridade": "Superior",
+      "detalhes": "60 vagas até R$ 20.000,00 | Auditor Federal de Finanças e Controle | Superior",
+      "cargos_ti": [
+        "Auditor Federal de Finanças e Controle - Especialidade: Tecnologia da Informação - Ciência de Dados (10 vagas)",
+        "Auditor Federal de Finanças e Controle - Especialidade: Tecnologia da Informação - Infraestrutura de TI (10 vagas)",
+        "Auditor Federal de Finanças e Controle - Especialidade: Tecnologia da Informação - Desenvolvimento de Sistemas (10 vagas)"
+      ],
+      "link": "https://www.pciconcursos.com.br/noticias/cgu-abre-concurso-publico-com-vagas-para-auditores-federais-de-financas-e-controle"
+    },
+    {
+      "orgao": "Prefeitura de Francisco Beltrão",
+      "titulo": "Prefeitura de Francisco Beltrão - PR abre processo seletivo para diversos cargos",
+      "escopo": "PR",
+      "uf": "PR",
+      "cidade_base": "Francisco Beltrão",
+      "distancia_toledo_km": 166.0,
+      "status_inscricao": "Aberta",
+      "inscricoes_ate": "09/11/2026",
+      "data_fim_iso": "2026-11-09",
+      "salario_ate": "6.749,53",
+      "salario_num": 6749.53,
+      "escolaridade": "Fundamental / Médio / Técnico / Superior",
+      "detalhes": "Cadastro de reserva até R$ 6.749,53 | Vários Cargos | Fundamental / Médio / Técnico / Superior",
+      "cargos_ti": [
+        "Instrutor de Informática"
+      ],
+      "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-francisco-beltrao-pr-abre-processo-seletivo-para-diversos-cargos"
+    },
+    {
+      "orgao": "Prefeitura de Florestópolis",
+      "titulo": "Prefeitura de Florestópolis - PR abre concurso público com salários de até R$ 15.389,87",
+      "escopo": "PR",
+      "uf": "PR",
+      "cidade_base": "Florestópolis",
+      "distancia_toledo_km": 316.5,
+      "status_inscricao": "Aberta",
+      "inscricoes_ate": "10/11/2026",
+      "data_fim_iso": "2026-11-10",
+      "salario_ate": "15.389,87",
+      "salario_num": 15389.87,
+      "escolaridade": "Médio / Técnico / Superior",
+      "detalhes": "46 vagas até R$ 15.389,87 | Vários Cargos | Médio / Técnico / Superior",
+      "cargos_ti": [
+        "Técnico de Informática (1 vaga + CR)"
+      ],
+      "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-florestopolis-pr-abre-concurso-publico-com-salarios-de-ate-15389"
+    }
+  ]
+}

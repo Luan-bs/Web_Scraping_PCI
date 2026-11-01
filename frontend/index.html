@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Concursos de TI — Paraná & Nacionais (Próximos a Toledo-PR)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div>
+        <div class="eyebrow">Rastreador PCI Concursos • TI</div>
+        <h1>Vagas de TI Abertas (PR &amp; Nacionais)</h1>
+        <p class="subtitle">
+          Concursos Nacionais no topo, seguidos pelos concursos do Paraná ordenados pela menor distância até <strong>Toledo - PR</strong>.
+        </p>
+      </div>
+      <div class="meta-box">
+        <span class="meta-label">Última atualização</span>
+        <strong id="last-updated">Carregando...</strong>
+        <span id="reference-city" class="meta-sub">Base: Toledo - PR</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="stats-grid" id="stats-grid">
+      <div class="stat-card">
+        <span class="stat-label">Total de Editais de TI</span>
+        <strong class="stat-value" id="stat-total">-</strong>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Concursos Nacionais (Topo)</span>
+        <strong class="stat-value" id="stat-nacional">-</strong>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Concursos no Paraná (PR)</span>
+        <strong class="stat-value" id="stat-pr">-</strong>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Mais Próximo de Toledo</span>
+        <strong class="stat-value stat-highlight" id="stat-closest">-</strong>
+      </div>
+    </section>
+
+    <section class="filters-bar">
+      <div class="search-wrapper">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Buscar por órgão, cidade, cargo de TI..."
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="filter-group">
+        <label for="scope-filter">Abrangência</label>
+        <select id="scope-filter">
+          <option value="ALL">Todos (Nacionais + PR)</option>
+          <option value="NACIONAL">Apenas Nacionais (BR)</option>
+          <option value="PR">Apenas Paraná (PR)</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="status-filter">Status da Inscrição</label>
+        <select id="status-filter">
+          <option value="ALL">Abertas + Abrindo em breve</option>
+          <option value="Aberta">Inscrições Abertas hoje</option>
+          <option value="Abre em breve">Abre em breve</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="level-filter">Escolaridade</label>
+        <select id="level-filter">
+          <option value="ALL">Superior + Técnico/Médio</option>
+          <option value="Superior">Nível Superior</option>
+          <option value="Técnico">Nível Técnico / Médio</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="results-info" class="results-info"></section>
+
+    <section id="concursos-list" class="concursos-list">
+      <div class="loading-state">Carregando vagas de TI...</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Dados extraídos automaticamente do PCI Concursos via <code>backend/main.py</code>. Distâncias calculadas em linha reta (km) a partir de Toledo - PR.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+name: Atualizar Vagas de TI (PCI Concursos)
+
+on:
+  schedule:
+    # Executa todos os dias às 08:00 e 18:00 (horário de Brasília / UTC-3 -> 11:00 e 21:00 UTC)
+    - cron: "0 11,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Instalar uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Configurar Python
+        run: uv python install
+
+      - name: Instalar dependências
+        run: uv sync
+
+      - name: Executar Scraper (backend/main.py)
+        run: uv run python backend/main.py
+
+      - name: Salvar e fazer commit do JSON atualizado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add frontend/concursos.json
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração nas vagas encontradas."
+          else
+            git commit -m "chore(data): atualiza concursos de TI abertos [skip ci]"
+            git push
+          fi
