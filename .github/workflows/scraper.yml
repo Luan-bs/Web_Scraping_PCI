@@ -1,16 +1,29 @@
-name: Atualizar Vagas de TI (PCI Concursos)
+name: Atualizar e Publicar Site
 
 on:
   schedule:
-    # Executa todos os dias às 08:00 e 18:00 (horário de Brasília / UTC-3 -> 11:00 e 21:00 UTC)
+    # Executa todos os dias às 08:00 e 18:00 (Brasília UTC-3 -> 11:00 e 21:00 UTC)
     - cron: "0 11,21 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "frontend/**"
+      - "backend/**"
+      - ".github/workflows/**"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  scrape:
+  scrape-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do repositório
@@ -30,14 +43,26 @@ jobs:
       - name: Executar Scraper (backend/main.py)
         run: uv run python backend/main.py
 
-      - name: Salvar e fazer commit do JSON atualizado
+      - name: Salvar e comitar concursos.json atualizado
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add frontend/concursos.json
           if git diff --staged --quiet; then
-            echo "Nenhuma alteração nas vagas encontradas."
+            echo "Nenhuma alteração nos dados das vagas."
           else
             git commit -m "chore(data): atualiza concursos de TI abertos [skip ci]"
             git push
           fi
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Fazer upload dos arquivos do frontend
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "frontend/"
+
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
