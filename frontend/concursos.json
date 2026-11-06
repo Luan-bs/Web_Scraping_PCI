@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "05/11/2026 18:24",
+  "atualizado_em": "06/11/2026 01:17",
   "cidade_referencia": "Toledo - PR",
   "coordenadas_referencia": {
     "lat": -24.7246,
     "lon": -53.7412
   },
-  "total": 2,
+  "total": 3,
   "concursos": [
     {
       "orgao": "Prefeitura de Francisco Beltrão",
@@ -44,6 +44,25 @@
         "Técnico de Informática (1 vaga + CR)"
       ],
       "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-florestopolis-pr-abre-concurso-publico-com-salarios-de-ate-15389"
+    },
+    {
+      "orgao": "IFPR - Instituto Federal de Educação, Ciência e Tecnologia do Paraná",
+      "titulo": "IFPR abre processos seletivos para professor substituto no campus Jacarezinho",
+      "escopo": "PR",
+      "uf": "PR",
+      "cidade_base": "Jacarezinho",
+      "distancia_toledo_km": 420.5,
+      "status_inscricao": "Aberta",
+      "inscricoes_ate": "18/11/2026",
+      "data_fim_iso": "2026-11-18",
+      "salario_ate": "5.037,78",
+      "salario_num": 5037.78,
+      "escolaridade": "Superior",
+      "detalhes": "2 vagas até R$ 5.037,78 | Professor substituto | Superior",
+      "cargos_ti": [
+        "Informática"
+      ],
+      "link": "https://www.pciconcursos.com.br/noticias/ifpr-abre-processos-seletivos-para-professor-substituto-no-campus-jacarezinho"
     }
   ]
 }
