@@ -1,31 +1,12 @@
 {
-  "atualizado_em": "09/11/2026 21:12",
+  "atualizado_em": "10/11/2026 18:23",
   "cidade_referencia": "Toledo - PR",
   "coordenadas_referencia": {
     "lat": -24.7246,
     "lon": -53.7412
   },
-  "total": 3,
+  "total": 2,
   "concursos": [
-    {
-      "orgao": "Prefeitura de Francisco Beltrão",
-      "titulo": "Prefeitura de Francisco Beltrão - PR abre processo seletivo para diversos cargos",
-      "escopo": "PR",
-      "uf": "PR",
-      "cidade_base": "Francisco Beltrão",
-      "distancia_toledo_km": 166.0,
-      "status_inscricao": "Aberta",
-      "inscricoes_ate": "09/11/2026",
-      "data_fim_iso": "2026-11-09",
-      "salario_ate": "6.749,53",
-      "salario_num": 6749.53,
-      "escolaridade": "Fundamental / Médio / Técnico / Superior",
-      "detalhes": "Cadastro de reserva até R$ 6.749,53 | Vários Cargos | Fundamental / Médio / Técnico / Superior",
-      "cargos_ti": [
-        "Instrutor de Informática"
-      ],
-      "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-francisco-beltrao-pr-abre-processo-seletivo-para-diversos-cargos"
-    },
     {
       "orgao": "Prefeitura de Florestópolis",
       "titulo": "Prefeitura de Florestópolis - PR abre concurso público com salários de até R$ 15.389,87",
