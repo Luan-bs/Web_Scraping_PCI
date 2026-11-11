@@ -1,31 +1,12 @@
 {
-  "atualizado_em": "10/11/2026 18:23",
+  "atualizado_em": "11/11/2026 00:57",
   "cidade_referencia": "Toledo - PR",
   "coordenadas_referencia": {
     "lat": -24.7246,
     "lon": -53.7412
   },
-  "total": 2,
+  "total": 1,
   "concursos": [
-    {
-      "orgao": "Prefeitura de Florestópolis",
-      "titulo": "Prefeitura de Florestópolis - PR abre concurso público com salários de até R$ 15.389,87",
-      "escopo": "PR",
-      "uf": "PR",
-      "cidade_base": "Florestópolis",
-      "distancia_toledo_km": 316.5,
-      "status_inscricao": "Aberta",
-      "inscricoes_ate": "10/11/2026",
-      "data_fim_iso": "2026-11-10",
-      "salario_ate": "15.389,87",
-      "salario_num": 15389.87,
-      "escolaridade": "Médio / Técnico / Superior",
-      "detalhes": "46 vagas até R$ 15.389,87 | Vários Cargos | Médio / Técnico / Superior",
-      "cargos_ti": [
-        "Técnico de Informática (1 vaga + CR)"
-      ],
-      "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-florestopolis-pr-abre-concurso-publico-com-salarios-de-ate-15389"
-    },
     {
       "orgao": "IFPR - Instituto Federal de Educação, Ciência e Tecnologia do Paraná",
       "titulo": "IFPR abre processos seletivos para professor substituto no campus Jacarezinho",
