@@ -1,12 +1,35 @@
 {
-  "atualizado_em": "13/11/2026 18:18",
+  "atualizado_em": "14/11/2026 01:08",
   "cidade_referencia": "Toledo - PR",
   "coordenadas_referencia": {
     "lat": -24.7246,
     "lon": -53.7412
   },
-  "total": 1,
+  "total": 2,
   "concursos": [
+    {
+      "orgao": "APS - Associação das Pioneiras Sociais",
+      "titulo": "Associação das Pioneiras Sociais abre processo seletivo para analista de tecnologia da informação",
+      "escopo": "NACIONAL",
+      "uf": "BR",
+      "cidade_base": "Nacional (Prova no PR / Capitais)",
+      "distancia_toledo_km": null,
+      "status_inscricao": "Abre em breve",
+      "inscricoes_ate": "23/11 a 17/12/2026",
+      "data_fim_iso": "2026-12-17",
+      "salario_ate": "14.972,56",
+      "salario_num": 14972.56,
+      "escolaridade": "Superior",
+      "detalhes": "11 vagas até R$ 14.972,56 | Analista de Tecnologia da Informação | Superior",
+      "cargos_ti": [
+        "Analista de Tecnologia da Informação, área de Desenvolvimento, Brasília (4 vagas)",
+        "Analista de Tecnologia da Informação, área de Infraestrutura, Brasília (4 vagas)",
+        "Analista de Tecnologia da Informação, área de Infraestrutura, Rio de Janeiro (1 vaga)",
+        "Analista de Tecnologia da Informação, área de Infraestrutura, Salvador (1 vaga)",
+        "Analista de Tecnologia da Informação, área de Infraestrutura, São Luís (1 vaga)"
+      ],
+      "link": "https://www.pciconcursos.com.br/noticias/associacao-das-pioneiras-sociais-abre-processo-seletivo-para-analista-de-tecnologia-da-informacao"
+    },
     {
       "orgao": "IFPR - Instituto Federal de Educação, Ciência e Tecnologia do Paraná",
       "titulo": "IFPR abre processos seletivos para professor substituto no campus Jacarezinho",
