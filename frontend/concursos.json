@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/11/2026 02:40",
+  "atualizado_em": "18/11/2026 19:12",
   "cidade_referencia": "Toledo - PR",
   "coordenadas_referencia": {
     "lat": -24.7246,
     "lon": -53.7412
   },
-  "total": 2,
+  "total": 3,
   "concursos": [
     {
       "orgao": "APS - Associação das Pioneiras Sociais",
@@ -29,6 +29,25 @@
         "Analista de Tecnologia da Informação, área de Infraestrutura, São Luís (1 vaga)"
       ],
       "link": "https://www.pciconcursos.com.br/noticias/associacao-das-pioneiras-sociais-abre-processo-seletivo-para-analista-de-tecnologia-da-informacao"
+    },
+    {
+      "orgao": "Prefeitura de Palmital",
+      "titulo": "Prefeitura de Palmital - PR abre concurso público com salários de até R$ 22.836,51",
+      "escopo": "PR",
+      "uf": "PR",
+      "cidade_base": "Palmital",
+      "distancia_toledo_km": 156.3,
+      "status_inscricao": "Abre em breve",
+      "inscricoes_ate": "25/11 a 27/12/2026",
+      "data_fim_iso": "2026-12-27",
+      "salario_ate": "22.836,51",
+      "salario_num": 22836.51,
+      "escolaridade": "Fundamental / Médio / Técnico / Superior",
+      "detalhes": "126 vagas até R$ 22.836,51 | Vários Cargos | Fundamental / Médio / Técnico / Superior",
+      "cargos_ti": [
+        "Profissional em TI (1 vaga)"
+      ],
+      "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-palmital-pr-abre-concurso-publico-com-salarios-de-ate-22836"
     },
     {
       "orgao": "IFPR - Instituto Federal de Educação, Ciência e Tecnologia do Paraná",
