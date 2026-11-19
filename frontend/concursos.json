@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "18/11/2026 19:12",
+  "atualizado_em": "19/11/2026 02:08",
   "cidade_referencia": "Toledo - PR",
   "coordenadas_referencia": {
     "lat": -24.7246,
     "lon": -53.7412
   },
-  "total": 3,
+  "total": 2,
   "concursos": [
     {
       "orgao": "APS - Associação das Pioneiras Sociais",
@@ -48,25 +48,6 @@
         "Profissional em TI (1 vaga)"
       ],
       "link": "https://www.pciconcursos.com.br/noticias/prefeitura-de-palmital-pr-abre-concurso-publico-com-salarios-de-ate-22836"
-    },
-    {
-      "orgao": "IFPR - Instituto Federal de Educação, Ciência e Tecnologia do Paraná",
-      "titulo": "IFPR abre processos seletivos para professor substituto no campus Jacarezinho",
-      "escopo": "PR",
-      "uf": "PR",
-      "cidade_base": "Jacarezinho",
-      "distancia_toledo_km": 420.5,
-      "status_inscricao": "Aberta",
-      "inscricoes_ate": "18/11/2026",
-      "data_fim_iso": "2026-11-18",
-      "salario_ate": "5.037,78",
-      "salario_num": 5037.78,
-      "escolaridade": "Superior",
-      "detalhes": "2 vagas até R$ 5.037,78 | Professor substituto | Superior",
-      "cargos_ti": [
-        "Informática"
-      ],
-      "link": "https://www.pciconcursos.com.br/noticias/ifpr-abre-processos-seletivos-para-professor-substituto-no-campus-jacarezinho"
     }
   ]
 }
