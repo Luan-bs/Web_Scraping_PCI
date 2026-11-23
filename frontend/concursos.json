@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "22/11/2026 18:09",
+  "atualizado_em": "23/11/2026 01:15",
   "cidade_referencia": "Toledo - PR",
   "coordenadas_referencia": {
     "lat": -24.7246,
@@ -14,7 +14,7 @@
       "uf": "BR",
       "cidade_base": "Nacional (Prova no PR / Capitais)",
       "distancia_toledo_km": null,
-      "status_inscricao": "Abre em breve",
+      "status_inscricao": "Aberta",
       "inscricoes_ate": "23/11 a 17/12/2026",
       "data_fim_iso": "2026-12-17",
       "salario_ate": "14.972,56",
