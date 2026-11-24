@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "23/11/2026 22:19",
+  "atualizado_em": "24/11/2026 20:57",
   "cidade_referencia": "Toledo - PR",
   "coordenadas_referencia": {
     "lat": -24.7246,
     "lon": -53.7412
   },
-  "total": 2,
+  "total": 3,
   "concursos": [
     {
       "orgao": "APS - Associação das Pioneiras Sociais",
@@ -29,6 +29,25 @@
         "Analista de Tecnologia da Informação, área de Infraestrutura, São Luís (1 vaga)"
       ],
       "link": "https://www.pciconcursos.com.br/noticias/associacao-das-pioneiras-sociais-abre-processo-seletivo-para-analista-de-tecnologia-da-informacao"
+    },
+    {
+      "orgao": "CRO/PR - Conselho Regional de Odontologia do Paraná",
+      "titulo": "CRO-PR abre concurso público com 12 vagas e salários de até R$ 14.318,45",
+      "escopo": "PR",
+      "uf": "PR",
+      "cidade_base": "Cascavel",
+      "distancia_toledo_km": 38.5,
+      "status_inscricao": "Abre em breve",
+      "inscricoes_ate": "30/11 a 29/12/2026",
+      "data_fim_iso": "2026-12-29",
+      "salario_ate": "14.318,45",
+      "salario_num": 14318.45,
+      "escolaridade": "Médio / Superior",
+      "detalhes": "12 vagas até R$ 14.318,45 | Vários Cargos | Médio / Superior",
+      "cargos_ti": [
+        "Técnico em Informática (1 vaga)"
+      ],
+      "link": "https://www.pciconcursos.com.br/noticias/cro-pr-abre-concurso-publico-com-12-vagas-e-salarios-de-ate-14318"
     },
     {
       "orgao": "Prefeitura de Palmital",
