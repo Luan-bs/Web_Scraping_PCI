@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/11/2026 20:57",
+  "atualizado_em": "25/11/2026 03:55",
   "cidade_referencia": "Toledo - PR",
   "coordenadas_referencia": {
     "lat": -24.7246,
@@ -56,8 +56,8 @@
       "uf": "PR",
       "cidade_base": "Palmital",
       "distancia_toledo_km": 156.3,
-      "status_inscricao": "Abre em breve",
-      "inscricoes_ate": "25/11 a 27/12/2026",
+      "status_inscricao": "Aberta",
+      "inscricoes_ate": "27/12/2026",
       "data_fim_iso": "2026-12-27",
       "salario_ate": "22.836,51",
       "salario_num": 22836.51,
